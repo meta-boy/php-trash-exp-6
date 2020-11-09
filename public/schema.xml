@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <tickets>
+    <id>1</id>
+    <trainNumber>12314</trainNumber>
+    <passengerName>Anurag Patil</passengerName>
+    <ticketPrice>69</ticketPrice>
+    <to>Delhi</to>
+    <from>Mumbai</from>
+    <trainName>Some train Name</trainName>
+  </tickets>
+  <tickets>
+    <id>2</id>
+    <trainNumber>12324</trainNumber>
+    <passengerName>Anurag Patil</passengerName>
+    <ticketPrice>69</ticketPrice>
+    <to>Delhi</to>
+    <from>Mumbai</from>
+    <trainName>Some train Name</trainName>
+  </tickets>
+  <tickets>
+    <id>3</id>
+    <trainNumber>12334</trainNumber>
+    <passengerName>Dikhsha Nigam</passengerName>
+    <ticketPrice>69</ticketPrice>
+    <to>Delhi</to>
+    <from>Mumbai</from>
+    <trainName>Some train Name</trainName>
+  </tickets>
+  <tickets>
+    <id>4</id>
+    <trainNumber>12344</trainNumber>
+    <passengerName>Pratik Murari</passengerName>
+    <ticketPrice>69</ticketPrice>
+    <to>Delhi</to>
+    <from>Mumbai</from>
+    <trainName>Some train Name</trainName>
+  </tickets>
+</root>
