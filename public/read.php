@@ -33,6 +33,7 @@ if (isset($_POST['submit'])) {
 <?php require "templates/header.php"; ?>
         
 <?php  
+
 if (isset($_POST['submit'])) {
   if ($result && $statement->rowCount() > 0) { ?>
     <h2>Results</h2>
@@ -67,7 +68,7 @@ if (isset($_POST['submit'])) {
       <blockquote>No results found for <?php echo escape($_POST['location']); ?>.</blockquote>
     <?php } 
 } ?> 
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <h2>Find user based on location</h2>
 
 <form method="post">
