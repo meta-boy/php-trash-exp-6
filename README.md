@@ -2,23 +2,15 @@
 
 Create a Simple Database App: Connecting to MySQL with PHP
 
-## Tutorial
 
-- [Part 1: Create and Read](https://www.taniarascia.com/create-a-simple-database-app-connecting-to-mysql-with-php/)
-- [Part 2: Update and Delete](https://www.taniarascia.com/create-a-simple-crud-database-app-php-update-delete/)
+## instructions
+Before starting everthing make sure you have cloned this repo and have the mysql driver enabled in apache or whatever you are using
 
-## Lessons
+1. Edit your username and password for mysql to the config.php file
+2. Migrate the db
+```php -f install.php```
+3. Throw the thing inside /etc/var/www or whatever monstrosity you have as server folder
+### OR
+3. cd into public and host a development server at your port of choice
+```cd public && php -S localhost:8000```
 
-- Install database and create table structure
-- Submit new users
-- Query and filter users
-- Update users with new data
-- Delete users
-
-## Author
-
-- [Tania Rascia](https://www.taniarascia.com)
-
-## License
-
-The code is open source and available under the [MIT License](LICENSE).
